@@ -1,0 +1,50 @@
+.cta {
+    background-image: url(images/hampy.jpg);
+    background-size: cover;
+    width: 100%;
+    padding: 0;
+    position: relative;
+    z-index: 1;
+}
+
+.cta > h1 {
+    font-size: 5rem;
+    font-weight: 900;
+    text-transform: uppercase;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    padding-left: 1rem;
+    color: chartreuse;
+}
+
+.cta-right > p {
+    font-size: 2rem;
+    padding: 1rem;
+    padding-bottom: 0;
+}
+
+.cta-right > button {
+    margin: 1rem;
+    padding: 1rem;
+    font-size: 2.5rem;
+}
+
+.cta-right > button:hover {
+    color: crimson;
+    background-color: darkgreen;
+}
+
+.cta-right {
+    text-align: right;
+    color: chartreuse;
+    z-index: 10;
+    padding: 0;
+}
+
+.cta-filter {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(220, 20, 60, 0.3);
+    z-index: -1;
+}
