@@ -55,8 +55,18 @@ p {
 
 .nav-link {
     text-decoration: none;
+    color: black;
+}
+
+.navbar-brand {
+    text-decoration: none;
+    color: black;
 }
 
 .nav-link:hover {
+    text-decoration: underline;
+}
+
+.navbar-brand:hover {
     text-decoration: underline;
 }
