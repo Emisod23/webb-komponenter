@@ -1,0 +1,179 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+p {
+  font-size: 1rem;
+}
+
+.container {
+  max-width: 48rem;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.card-content {
+  font-size: 1.2rem;
+  border: black;
+  padding-left: 5%;
+  padding-right: 5%;
+  width: 33%;
+  height: 100%;
+}
+
+.card-group {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+}
+
+img {
+  width: 100%;
+  height: 10rem;
+}
+
+.navbar {
+  min-height: 3rem;
+  background-color: fuchsia;
+  font-size: 1.6rem;
+}
+
+.navbar-inner {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+@media screen and (max-width: 24rem) {
+  .navbar-inner, .nav {
+    flex-direction: column;
+    text-align: center;
+  }
+}
+.nav {
+  display: flex;
+  list-style: none;
+}
+
+.nav-item {
+  padding-left: 1rem;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: black;
+}
+
+.navbar-brand {
+  text-decoration: none;
+  color: black;
+}
+
+.nav-link:hover {
+  text-decoration: underline;
+}
+
+.navbar-brand:hover {
+  text-decoration: underline;
+}
+
+.cta {
+  background-image: url(../cta/images/hampy.jpg);
+  background-size: cover;
+  width: 100%;
+  padding: 0;
+  position: relative;
+  z-index: 1;
+}
+
+.cta > h1 {
+  font-size: 5rem;
+  font-weight: 900;
+  text-transform: uppercase;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  padding-left: 1rem;
+  color: chartreuse;
+}
+
+.cta-right > p {
+  font-size: 2rem;
+  padding: 1rem;
+  padding-bottom: 0;
+}
+
+.cta-right > button {
+  margin: 1rem;
+  padding: 1rem;
+  font-size: 2.5rem;
+}
+
+.cta-right > button:hover {
+  color: crimson;
+  background-color: darkgreen;
+}
+
+.cta-right {
+  text-align: right;
+  color: chartreuse;
+  z-index: 10;
+  padding: 0;
+}
+
+.cta-filter {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(220, 20, 60, 0.3);
+  z-index: -1;
+}
+
+.footer {
+  min-height: 3rem;
+  background-color: fuchsia;
+  font-size: 1.6rem;
+}
+
+.inner-feet {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+@media screen and (max-width: 24rem) {
+  .navbar-inner, .nav {
+    flex-direction: column;
+    text-align: center;
+  }
+}
+.foot-card {
+  display: flex;
+  list-style: none;
+  flex-direction: column;
+}
+
+.foot-item {
+  padding-left: 1rem;
+}
+
+.bigfoot {
+  font-size: 2rem;
+  text-decoration: underline;
+}
+
+/*# sourceMappingURL=style.css.map */

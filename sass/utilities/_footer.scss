@@ -1,0 +1,33 @@
+.footer {
+    min-height: 3rem;
+    background-color: rgb(255, 0, 255);
+    font-size: 1.6rem;
+}
+
+.inner-feet {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+@media screen and (max-width: 24rem){
+    .navbar-inner, .nav {
+        flex-direction: column;
+        text-align: center;
+    }
+}
+
+.foot-card {
+    display: flex;
+    list-style: none;
+    flex-direction: column;
+}
+
+.foot-item {
+    padding-left: 1rem;
+}
+
+.bigfoot {
+    font-size: 2rem;
+    text-decoration: underline;
+}

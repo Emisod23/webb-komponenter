@@ -1,0 +1,46 @@
+.navbar {
+    min-height: 3rem;
+    background-color: rgb(255, 0, 255);
+    font-size: 1.6rem;
+}
+
+.navbar-inner {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+@media screen and (max-width: 24rem){
+    .navbar-inner, .nav {
+        flex-direction: column;
+        text-align: center;
+    }
+}
+
+.nav {
+    display: flex;
+    list-style: none;
+}
+
+.nav-item {
+    padding-left: 1rem;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: black;
+}
+
+.navbar-brand {
+    text-decoration: none;
+    color: black;
+}
+
+.nav-link:hover {
+    text-decoration: underline;
+}
+
+.navbar-brand:hover {
+    text-decoration: underline;
+}
